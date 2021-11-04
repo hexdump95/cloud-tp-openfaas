@@ -6,5 +6,4 @@ functions:
   image:
     lang: java11
     handler: ./image
-    image: hexdump95/image:latest
-
+    image: hexdump95/cloud-tp-openfaas:latest
