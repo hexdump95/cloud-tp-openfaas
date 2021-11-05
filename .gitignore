@@ -2,3 +2,5 @@ template/
 build/
 .idea/
 .gradle/
+minio/data/
+.env
