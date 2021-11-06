@@ -7,3 +7,5 @@ functions:
     lang: java11
     handler: ./image
     image: hexdump95/cloud-tp-openfaas:latest
+    secrets:
+      - secret-mongodb-uri

@@ -18,6 +18,7 @@ dependencies {
     compile 'com.openfaas:entrypoint:0.1.0'
 
     compile 'com.jayway.jsonpath:json-path:2.6.0'
+    compile 'org.mongodb:mongodb-driver-sync:4.3.4'
 }
 
 // In this section you declare where to find the dependencies of your project
