@@ -2,5 +2,5 @@ template/
 build/
 .idea/
 .gradle/
-minio/data/
+minio/server/data/
 .env
