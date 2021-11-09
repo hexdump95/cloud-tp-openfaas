@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  minio:
+    image: minio/console:v0.12.1
+    command: server
+    container_name: minio-console
+    ports:
+      - "9090:9090"
+    environment:
+      - CONSOLE_MINIO_SERVER=https://minio.sergiovillanueva.ar
